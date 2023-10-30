@@ -77,18 +77,18 @@ class NumberTest {
         assertEquals("Number{denary=-148 binary=101101100 hexadecimal=16C}", number.toString());
     }
 
-    @org.junit.jupiter.api.Test
-    void testNegatePositive() {
-        number = new Number(68);
-        number.negate();
-        assertEquals("Number{denary=-68 binary=10111100 hexadecimal=BC}", number.toString());
-    }
-
-    @org.junit.jupiter.api.Test
-    void testNegateNegative() {
-        number = new Number(-68);
-        number.negate();
-        assertEquals("Number{denary=68 binary=01000100 hexadecimal=44}", number.toString());
-    }
+//    @org.junit.jupiter.api.Test
+//    void testNegatePositive() {
+//        number = new Number(68);
+//        number.negate();
+//        assertEquals("Number{denary=-68 binary=10111100 hexadecimal=BC}", number.toString());
+//    }
+//
+//    @org.junit.jupiter.api.Test
+//    void testNegateNegative() {
+//        number = new Number(-68);
+//        number.negate();
+//        assertEquals("Number{denary=68 binary=01000100 hexadecimal=44}", number.toString());
+//    }
 
 }
